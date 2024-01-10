@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Historique des rendez-vous</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        background-image: url(images/his.jpg) ;
+        background-repeat: no-repeat;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        background-size:cover;
+      }
+      h1 {
+        text-align: center;
+        color: #4c91af;
+      }
+      .container {
+        margin: auto;
+        width: 80%;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        text-align: left;
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color:#4c91af;
+        color: white;
+      }
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+      @media screen and (max-width: 600px) {
+        .container {
+          width: 100%;
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Historique des rendez-vous</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Heure</th>
+            <th>Nom du patient</th>
+            <th>Raison</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/03/2023</td>
+            <td>14h30</td>
+            <td>John Doe</td>
+            <td>Consultation pour douleur au dos</td>
+          </tr>
+          <tr>
+            <td>03/03/2023</td>
+            <td>9h00</td>
+            <td>Jane Smith</td>
+            <td>Bilan de santé annuel</td>
+          </tr>
+          <tr>
+            <td>05/03/2023</td>
+            <td>16h15</td>
+            <td>Robert Johnson</td>
+            <td>Consultation pour grippe</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

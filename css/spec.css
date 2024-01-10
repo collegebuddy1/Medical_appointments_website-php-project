@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    
+    font-family: 'Josefin sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 100%;
+    }
+  .background {
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+ 
+  .logo{
+    color :black;
+    font-size: 20px;    
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  span{
+    color: #06b6d4;
+
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 50px;
+    /* padding-top: px; */
+    font-size: 20px;
+  }
+  nav ul li a{
+    color:white;
+    font-weight: bold;
+    text-transform: capitalize; 
+    text-decoration: none;
+    margin-left: -15px;
+    font-size: 30px;
+  }
+  nav ul li a:hover{
+    color: #06b6d4;
+    transition: .4s;
+
+  }
+  .title h2{
+    color: #06b6d4;
+    font-size: 75px;
+    width: 1130px;
+    margin:30px auto;
+    text-align: center;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left:15%;
+  }
+  
+  .card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:#06b6d4;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgb(12, 82, 122);
+  }
+img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius:20px ;
+}
+.card #Name{
+  position: absolute;
+  bottom: 100px;
+  left: 57%;
+  transform: translateX(-140%);
+  color: black;
+  font-weight:bold;
+  font-family: Georgia, serif;
+font-size: 20px;
+}
+.card #Speciality{
+  position: absolute;
+  bottom: 45px;
+  left: 70%;
+  transform: translateX(-140%);
+  color: black;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.card #Number{
+  
+  position: absolute;
+  bottom: 7px;
+  margin-right: 100px;
+  transform: translateX(-15%);
+  color: black;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 18px;
+}
+.card:hover img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: .5s;
+  }
+
+
+
+
+
+
+
+
+
+  /* make everything responsive */
+    @media screen and (max-width: 1200px){
+        .flex-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+        .card{
+        height: 365px;
+        width: 335px;
+        padding: 20px 35px;
+        background:#06b6d4;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        }
+    }

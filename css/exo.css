@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+    --font:'Poppins', sans-serif;
+
+
+--color:#9176ff ;
+--bg-color: #f4f4f4;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: 100;
+    background-color: var(--bg-color);
+}
+.main
+{
+    background: aqua;
+    color:#ffffff ;
+}
+nav
+{
+    min-height: 320vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 10rem;
+}
+nav ul
+{
+    display:flex ;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#logo
+{
+    flex: 2 1 40rem;
+}
+.swiper
+{
+    width: 100%;
+}
+
+.swiper_wrapper
+{
+  width: 100%;
+  height: 15em;
+  font-display: center;
+  align-items: center;
+ 
+}
+
+.card{
+    width: 13em;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0 ,0 ,0 , .2);
+    padding: 3em 0.5em;
+
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.card_image
+
+{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 2px solid var(--color);
+    padding: 1.5px;
+    margin-bottom: 2em;
+}
+.card_image img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card_content
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.car_title
+{
+    font-size:1rem;
+    font-weight: 400;
+    position: relative;
+    top: .1em
+}
+.card_name
+{
+    color: #9176ff;
+}
+.card_text
+{
+    text-align: center;
+    font-size: 0.7rem;
+    margin:0.1em 0;
+}
+.card_btn
+{
+    background-color: #9176ff;
+    color: #fff;
+    font-size: 1erm;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+
+}

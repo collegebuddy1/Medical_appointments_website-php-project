@@ -1,0 +1,185 @@
+@import url();
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(/images/bk3.jpg) ;
+    background-repeat: no-repeat;
+    
+   font-family: 'open sans', sans-serif;
+    
+    font-family: '', sans-serif;
+    display: flex;
+    flex-direction: col
+    3umn;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-size:cover;
+
+} 
+  
+.modif-form{
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+.container {
+    background-color: rgba(255, 254, 254, 0);
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.container a{
+    color: black;
+    
+}
+
+.btn {
+    cursor: pointer;
+    display:inline;
+    width: 100%;
+    background: #c0e0f9;
+    border: 0;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    opacity: 80%;
+    
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    margin: top 50px;
+}
+
+.form-control {
+    position:relative;
+    margin: 20px 40px;
+    width: 180px;
+    left:30%;
+    right: 30%;  
+    display: flex; 
+    
+    
+    
+}
+
+.form-control input {
+    background:#c0e0f9;
+    border: 0;
+    border-bottom: 10px  ;
+    padding: 10px 0;
+    border-radius: 10px;
+    opacity: 80%;
+    font-size: 15px;
+    width: 100%;
+    
+    
+    
+    
+   
+}
+.form-control input:focus, 
+.form-control input:valid {
+    outline: 0;
+}
+
+.form-control label{
+    position: absolute;
+    top: -10px;
+    left: -150px;
+
+}
+/*login contrôle*/
+.modif-form1{
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.login-box{
+    width: 360px;
+    height: 400px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: none;
+    border-radius: 30px;
+}
+
+form{
+    width: 370px;
+    margin-left: 30px;
+    
+}
+form label{
+    display: flex ;
+    margin-top: 20px;
+    font-size: 18px;
+    
+    
+}
+form input{
+    width: 80%;
+    padding: 8px;
+    border: none;
+    background-color:#c0e0f9;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    
+    
+}
+input[type="button"]{
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #c0e0f9;
+    color: black;
+    opacity: 80%;
+    font-size: 18px;
+}
+input:active{
+    transform: scale(0.98);
+}
+form label{
+    display: flex ;
+    margin-top: 20px;
+    font-size: 16px;
+    
+}
+.para-2{
+    text-align:justify;
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+.para-2 a{
+    color: black;
+}
+
+
+
+
+
+
+
